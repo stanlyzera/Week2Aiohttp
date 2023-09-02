@@ -1,11 +1,7 @@
 import typing
 
-from app.quiz.views import (
-    ThemeAddView,
-    ThemeListView,
-    QuestionAddView,
-    QuestionListView,
-)
+from app.quiz.views import (QuestionAddView, QuestionListView, ThemeAddView,
+                            ThemeListView)
 
 if typing.TYPE_CHECKING:
     from app.web.app import Application
